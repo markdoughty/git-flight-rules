@@ -1,7 +1,9 @@
-# Flight rules for Git
+# Flight rules for Git - Updated for CMP1903
 
+<!--
 🌍
 *[English](README.md) ∙ [Español](README_es.md)  ∙  [Русский](README_ru.md) ∙ [繁體中文](README_zh-TW.md) ∙ [简体中文](README_zh-CN.md) ∙ [한국어](README_kr.md)  ∙  [Tiếng Việt](README_vi.md) ∙ [Français](README_fr.md) ∙ [日本語](README_ja.md)*
+-->
 
 #### What are "flight rules"?
 
@@ -17,9 +19,18 @@ A guide for astronauts (now, programmers using Git) about what to do when things
 
 For clarity's sake all examples in this document use a customized bash prompt in order to indicate the current branch and whether or not there are staged changes. The branch is enclosed in parentheses, and a `*` next to the branch name indicates staged changes.
 
-All commands should work for at least git version 2.13.0. See the [git website](https://www.git-scm.com/) to update your local git version.
+All commands should work for at least git version 2.42.0. See the [git website](https://www.git-scm.com/) to update your local git version.
 
-[![Join the chat at https://gitter.im/k88hudson/git-flight-rules](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/k88hudson/git-flight-rules?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+#### Introduction
+
+(Forked from [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions))
+
+This guide is specifically for a command line use of Git. To use these commands, you should use the Git Bash window - easily accessible from your Git installation.
+
+For a use of desktop git clients such as **Git Desktop**, a tutorial and walkthough is given [here](https://github.com/markdoughty/first-contributions.git) (markdoughty/first-contributions).
+
+<!-- BADGE can be included here - link to Blackboard Module Site? -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -190,7 +201,7 @@ For more, see [this StackOverflow topic](https://stackoverflow.com/questions/243
 
 ### I want to add code to someone else's repository
 
-Git doesn't allow you to add code to someone else's repository without access rights. Neither does GitHub, which is not the same as Git, but rather a hosted service for Git repositories. However, you can suggest code using patches, or, on GitHub, forks and pull requests.
+Git doesn't allow you to add code to someone else's repository without access rights. Neither does GitHub, which is not the same as Git, but rather a hosted service for Git repositories. However, you can suggest code using patches, or, on GitHub, **forks** and **pull requests**.
 
 First, a bit about forking. A fork is a copy of a repository. It is not a git operation, but is a common action on GitHub, Bitbucket, GitLab — or anywhere people host Git repositories. You can fork a repository through the hosted UI.
 
