@@ -26,7 +26,7 @@ This is a community built document. Dive in and help out!
         ```sh
         (relevant branch)$ git blah blah
         ```
-
+<!--
 ## Translation
 
 We use a translation tool called [GitLocalize][gl]. Please follow these steps to get started with your contributions:
@@ -44,3 +44,4 @@ To learn more about how GitLocalize works, visit their [help page][gl-help]. If 
 [gl-help]: https://docs.gitlocalize.com/
 [gl-issue-tracker]: https://github.com/gitlocalize/feedback
 [gl-repo]: https://gitlocalize.com/repo/598
+-->
